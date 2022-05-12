@@ -1,52 +1,7 @@
-﻿<div id="main-wrapper">
-    <div class="container">
-        <div class="row gtr-200">
-            <div class="col-8 col-12-medium">
-                <div id="content">
-
-                    <!-- Content -->
-                    <article>
-
-                        <h2></h2>
-
-                        <p>
-                            
-                        </p>
-
-                        <h3></h3>
-                        <p>
-                            
-                        </p>
-
-                        <p>
-                            
-                        </p>
-
-                    </article>
-
-                </div>
-            </div>
-            <div class="col-4 col-12-medium">
-                <div id="sidebar">
-
-                    <!-- Sidebar -->
-                    <section>
-                        <h3></h3>
-                        <p>
-                            
-                        </p>
-                        <footer>
-                        </footer>
-                    </section>
-
-                    <section>
-                        <h3></h3>
-                        <ul class="style2">
-                        </ul>
-                    </section>
-
-                </div>
-            </div>
-        </div>
-    </div>
+﻿<div class="col-4 col-12-medium">
+       <div id="sidebar">
+           <cache>
+    @(await Component.InvokeAsync<Project1.Models.ViewComponents.SidebarViewComponent>())
+            </cache>
+       </div>
 </div>
